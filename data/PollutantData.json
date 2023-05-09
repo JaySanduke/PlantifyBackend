@@ -1,0 +1,242 @@
+[
+    {
+        "pollutantName": "SO2",
+        "qualitativeData": [
+            {
+                "quality": "Good",
+                "range": {
+                    "min": 0,
+                    "max": 20
+                }
+            },
+            {
+                "quality": "Fair",
+                "range": {
+                    "min": 20,
+                    "max": 80
+                }
+            },
+            {
+                "quality": "Moderate",
+                "range": {
+                    "min": 80,
+                    "max": 250
+                }
+            },
+            {
+                "quality": "Poor",
+                "range": {
+                    "min": 250,
+                    "max": 350
+                }
+            },
+            {
+                "quality": "Very Poor",
+                "range": {
+                    "min": 350,
+                    "max": 1000
+                }
+            }
+        ]
+    },
+    {
+        "pollutantName": "NO2",
+        "qualitativeData": [
+            {
+                "quality": "Good",
+                "range": {
+                    "min": 0,
+                    "max": 40
+                }
+            },
+            {
+                "quality": "Fair",
+                "range": {
+                    "min": 40,
+                    "max": 70
+                }
+            },
+            {
+                "quality": "Moderate",
+                "range": {
+                    "min": 70,
+                    "max": 150
+                }
+            },
+            {
+                "quality": "Poor",
+                "range": {
+                    "min": 150,
+                    "max": 200
+                }
+            },
+            {
+                "quality": "Very Poor",
+                "range": {
+                    "min": 200,
+                    "max": 1000
+                }
+            }
+        ]
+    },
+    {
+        "pollutantName": "PM10",
+        "qualitativeData": [
+            {
+                "quality": "Good",
+                "range": {
+                    "min": 0,
+                    "max": 20
+                }
+            },
+            {
+                "quality": "Fair",
+                "range": {
+                    "min": 20,
+                    "max": 50
+                }
+            },
+            {
+                "quality": "Moderate",
+                "range": {
+                    "min": 50,
+                    "max": 100
+                }
+            },
+            {
+                "quality": "Poor",
+                "range": {
+                    "min": 100,
+                    "max": 200
+                }
+            },
+            {
+                "quality": "Very Poor",
+                "range": {
+                    "min": 200,
+                    "max": 1000
+                }
+            }
+        ]
+    },
+    {
+        "pollutantName": "PM2.5",
+        "qualitativeData": [
+            {
+                "quality": "Good",
+                "range": {
+                    "min": 0,
+                    "max": 10
+                }
+            },
+            {
+                "quality": "Fair",
+                "range": {
+                    "min": 10,
+                    "max": 25
+                }
+            },
+            {
+                "quality": "Moderate",
+                "range": {
+                    "min": 25,
+                    "max": 50
+                }
+            },
+            {
+                "quality": "Poor",
+                "range": {
+                    "min": 50,
+                    "max": 75
+                }
+            },
+            {
+                "quality": "Very Poor",
+                "range": {
+                    "min": 75,
+                    "max": 500
+                }
+            }
+        ]
+    },
+    {
+        "pollutantName": "O3",
+        "qualitativeData": [
+            {
+                "quality": "Good",
+                "range": {
+                    "min": 0,
+                    "max": 60
+                }
+            },
+            {
+                "quality": "Fair",
+                "range": {
+                    "min": 60,
+                    "max": 100
+                }
+            },
+            {
+                "quality": "Moderate",
+                "range": {
+                    "min": 100,
+                    "max": 140
+                }
+            },
+            {
+                "quality": "Poor",
+                "range": {
+                    "min": 140,
+                    "max": 180
+                }
+            },
+            {
+                "quality": "Very Poor",
+                "range": {
+                    "min": 180,
+                    "max": 1000
+                }
+            }
+        ]
+    },
+    {
+        "pollutantName": "CO",
+        "qualitativeData": [
+            {
+                "quality": "Good",
+                "range": {
+                    "min": 0,
+                    "max": 4400
+                }
+            },
+            {
+                "quality": "Fair",
+                "range": {
+                    "min": 4400,
+                    "max": 9400
+                }
+            },
+            {
+                "quality": "Moderate",
+                "range": {
+                    "min": 9400,
+                    "max": 12400
+                }
+            },
+            {
+                "quality": "Poor",
+                "range": {
+                    "min": 12400,
+                    "max": 15400
+                }
+            },
+            {
+                "quality": "Very Poor",
+                "range": {
+                    "min": 15400,
+                    "max": 100000
+                }
+            }
+        ]
+    }
+]

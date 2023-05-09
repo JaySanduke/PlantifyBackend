@@ -1,0 +1,272 @@
+[
+    {
+        "pollutantId": "645a1392cf84d0e082ae3688",
+        "plantData": [
+            {
+                "name": "Areca Palm",
+                "scientificName": "Dypsis lutescens"
+            },
+            {
+                "name": "Rubber Plant",
+                "scientificName": "Ficus elastica"
+            },
+            {
+                "name": "Peace Lily",
+                "scientificName": "Spathiphyllum sp."
+            },
+            {
+                "name": "Spider Plant",
+                "scientificName": "Chlorophytum comosum"
+            },
+            {
+                "name": "Boston Fern",
+                "scientificName": "Nephrolepis exaltata"
+            },
+            {
+                "name": "Dracaena",
+                "scientificName": "Dracaena sp."
+            },
+            {
+                "name": "Golden Pothos",
+                "scientificName": "Epipremnum aureum"
+            },
+            {
+                "name": "Chinese Evergreen",
+                "scientificName": "Aglaonema sp."
+            },
+            {
+                "name": "Aloe Vera",
+                "scientificName": "Aloe vera"
+            },
+            {
+                "name": "Snake Plant",
+                "scientificName": "Sansevieria trifasciata"
+            }
+        ]
+    },
+    {
+        "pollutantId": "645aad47f3c4c4d01763ba77",
+        "plantData": [
+            {
+                "name": "Bamboo Palm",
+                "scientificName": "Chamaedorea seifrizii"
+            },
+            {
+                "name": "Aloe Vera",
+                "scientificName": "Aloe vera"
+            },
+            {
+                "name": "English Ivy",
+                "scientificName": "Hedera helix"
+            },
+            {
+                "name": "Snake Plant",
+                "scientificName": "Sansevieria trifasciata"
+            },
+            {
+                "name": "Spider Plant",
+                "scientificName": "Chlorophytum comosum"
+            },
+            {
+                "name": "Golden Pothos",
+                "scientificName": "Epipremnum aureum"
+            },
+            {
+                "name": "Gerbera Daisy",
+                "scientificName": "Gerbera jamesonii"
+            },
+            {
+                "name": "Rubber Plant",
+                "scientificName": "Ficus elastica"
+            },
+            {
+                "name": "Areca Palm",
+                "scientificName": "Dypsis lutescens"
+            },
+            {
+                "name": "Chinese Evergreen",
+                "scientificName": "Aglaonema sp."
+            }
+        ]
+    },
+    {
+        "pollutantId": "645aad47f3c4c4d01763ba83",
+        "plantData": [
+            {
+                "name": "Boston Fern",
+                "scientificName": "Nephrolepis exaltata"
+            },
+            {
+                "name": "Spider Plant",
+                "scientificName": "Chlorophytum comosum"
+            },
+            {
+                "name": "Peace Lily",
+                "scientificName": "Spathiphyllum sp."
+            },
+            {
+                "name": "Areca Palm",
+                "scientificName": "Dypsis lutescens"
+            },
+            {
+                "name": "Rubber Plant",
+                "scientificName": "Ficus elastica"
+            },
+            {
+                "name": "English Ivy",
+                "scientificName": "Hedera helix"
+            },
+            {
+                "name": "Bamboo Palm",
+                "scientificName": "Chamaedorea seifrizii"
+            },
+            {
+                "name": "Golden Pothos",
+                "scientificName": "Epipremnum aureum"
+            },
+            {
+                "name": "Dracaena",
+                "scientificName": "Dracaena sp."
+            },
+            {
+                "name": "Chinese Evergreen",
+                "scientificName": "Aglaonema sp."
+            }
+        ]
+    },
+    {
+        "pollutantId": "645aad48f3c4c4d01763ba8f",
+        "plantData": [
+            {
+                "name": "Bamboo Palm",
+                "scientificName": "Chamaedorea seifrizii"
+            },
+            {
+                "name": "Spider Plant",
+                "scientificName": "Chlorophytum comosum"
+            },
+            {
+                "name": "Peace Lily",
+                "scientificName": "Spathiphyllum sp."
+            },
+            {
+                "name": "Areca Palm",
+                "scientificName": "Dypsis lutescens"
+            },
+            {
+                "name": "Rubber Plant",
+                "scientificName": "Ficus elastica"
+            },
+            {
+                "name": "Boston Fern",
+                "scientificName": "Nephrolepis exaltata"
+            },
+            {
+                "name": "Golden Pothos",
+                "scientificName": "Epipremnum aureum"
+            },
+            {
+                "name": "Dracaena",
+                "scientificName": "Dracaena sp."
+            },
+            {
+                "name": "Chinese Evergreen",
+                "scientificName": "Aglaonema sp."
+            },
+            {
+                "name": "Gerbera Daisy",
+                "scientificName": "Gerbera jamesonii"
+            }
+        ]
+    },
+    {
+        "pollutantId": "645aad48f3c4c4d01763ba9b",
+        "plantData": [
+            {
+                "name": "Peace Lily",
+                "scientificName": "Spathiphyllum sp."
+            },
+            {
+                "name": "Areca Palm",
+                "scientificName": "Dypsis lutescens"
+            },
+            {
+                "name": "Rubber Plant",
+                "scientificName": "Ficus elastica"
+            },
+            {
+                "name": "Spider Plant",
+                "scientificName": "Chlorophytum comosum"
+            },
+            {
+                "name": "Boston Fern",
+                "scientificName": "Nephrolepis exaltata"
+            },
+            {
+                "name": "Aloe Vera",
+                "scientificName": "Aloe vera"
+            },
+            {
+                "name": "Dracaena",
+                "scientificName": "Dracaena sp."
+            },
+            {
+                "name": "Golden Pothos",
+                "scientificName": "Epipremnum aureum"
+            },
+            {
+                "name": "Chinese Evergreen",
+                "scientificName": "Aglaonema sp."
+            },
+            {
+                "name": "Gerbera Daisy",
+                "scientificName": "Gerbera jamesonii"
+            }
+        ]
+    },
+    {
+        "pollutantId": "645aad48f3c4c4d01763baa7",
+        "plantData": [
+            {
+                "name": "Areca Palm",
+                "scientificName": "Dypsis lutescens"
+            },
+            {
+                "name": "Rubber Plant",
+                "scientificName": "Ficus elastica"
+            },
+            {
+                "name": "Peace Lily",
+                "scientificName": "Spathiphyllum sp."
+            },
+            {
+                "name": "Spider Plant",
+                "scientificName": "Chlorophytum comosum"
+            },
+            {
+                "name": "Boston Fern",
+                "scientificName": "Nephrolepis exaltata"
+            },
+            {
+                "name": "Dracaena",
+                "scientificName": "Dracaena sp."
+            },
+            {
+                "name": "Golden Pothos",
+                "scientificName": "Epipremnum aureum"
+            },
+            {
+                "name": "Chinese Evergreen",
+                "scientificName": "Aglaonema sp."
+            },
+            {
+                "name": "Aloe Vera",
+                "scientificName": "Aloe vera"
+            },
+            {
+                "name": "Snake Plant",
+                "scientificName": "Sansevieria trifasciata"
+            }
+        ]
+    }
+]
