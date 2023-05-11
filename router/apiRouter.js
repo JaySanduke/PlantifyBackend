@@ -22,7 +22,7 @@ router.get("/getallplants", getAllPlants);
 router.get("/getplantsbypollutant", getPlantsByPollutant);
 
 // API routes
-router.post("/getplantsandpollutiondata", getPollutionAndPlantsData);
+router.get("/getplantsandpollutiondata", getPollutionAndPlantsData);
 
 // Export the router
 module.exports = router;
