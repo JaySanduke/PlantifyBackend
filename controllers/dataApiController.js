@@ -58,6 +58,7 @@ exports.getPollutionAndPlantsData = async (request, response) => {
       const returndata = {
         pollutantId: pollutant._id,
         pollutantName: pollutant.name,
+        value,
         quality
       };
 
