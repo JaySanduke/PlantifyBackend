@@ -14,7 +14,7 @@ exports.getPollutionAndPlantsData = async (request, response) => {
 
     // Get the pollutant data from the OpenWeather API
     const pollutantData = await GetPollutionData(lat, lon);
-    console.log(pollutantData);
+    console.log("OWA Response: ", pollutantData);
 
     function airqualityindex (aqi) {
       const indexes = new Map([
@@ -32,10 +32,10 @@ exports.getPollutionAndPlantsData = async (request, response) => {
     }
 
     const aqi = await airqualityindex(pollutantData.list[0].main.aqi);
-    console.log(aqi);
+    // console.log(aqi);
     // eslint-disable-next-line camelcase, no-unused-vars
     const { co, no, no2, o3, so2, pm2_5, pm10, nh3 } = pollutantData.list[0].components;
-    console.log(so2, no2, pm10, pm2_5, o3, co);
+    // console.log(so2, no2, pm10, pm2_5, o3, co);
 
     async function getpollutantandplants (component, value) {
       const pollutant = await Pollutant.findOne({ name: component });
@@ -43,7 +43,7 @@ exports.getPollutionAndPlantsData = async (request, response) => {
       if (!pollutant) {
         throw new Error(`Pollutant with name ${component} not found.`);
       }
-      console.log(pollutant);
+      // console.log(pollutant);
 
       const qualitativeData = pollutant.qualitativeData.find(data => {
         return data.range.min <= value && value <= data.range.max;
@@ -82,7 +82,11 @@ exports.getPollutionAndPlantsData = async (request, response) => {
       getpollutantandplants("CO", co)
     ]);
 
-    await console.log(pollutantandplants);
+    const data = {
+      aqi,
+      pollutantandplants
+    };
+    await console.log("data: " + data);
 
     response.status(200).json({
       status: "success",
