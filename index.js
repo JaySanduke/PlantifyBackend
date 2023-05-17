@@ -19,9 +19,8 @@ const port = 3000;
 
 // Enable CORS
 const corsoptions = {
-  origin: "https://plantify-web.netlify.app",
+  origin: "*",
   methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
-  preflightContinue: false,
   optionsSuccessStatus: [200, 201, 204]
 };
 
