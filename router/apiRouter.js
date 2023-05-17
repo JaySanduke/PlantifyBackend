@@ -9,6 +9,7 @@ router.get("/test", (req, res) => {
 const { createPollutant, getPollutantByName, createMultiplePollutants } = require("../controllers/pollutantController");
 const { createPlant, getAllPlants, createMultiplePlants, getPlantsByPollutant } = require("../controllers/plantController");
 const { getPollutionAndPlantsData } = require("../controllers/dataApiController");
+const { getForwardGeocode } = require("../controllers/geocodeController");
 
 // Pollutant routes
 router.post("/createpollutant", createPollutant);
@@ -23,6 +24,8 @@ router.get("/getplantsbypollutant", getPlantsByPollutant);
 
 // API routes
 router.get("/getplantsandpollutiondata", getPollutionAndPlantsData);
+
+router.post("/geocode/forward", getForwardGeocode);
 
 // Export the router
 module.exports = router;
