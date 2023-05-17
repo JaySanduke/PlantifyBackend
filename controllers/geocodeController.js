@@ -4,16 +4,14 @@ const { forwardGeoCoding } = require("../util/geocodeUtility");
 // Controller Functions
 exports.getForwardGeocode = async (request, response) => {
   try {
-    // const { webaddress } = request.data;
+    const { webaddress } = request.body;
 
-    // const geocode = await forwardGeoCoding(webaddress);
+    const geocode = await forwardGeoCoding(webaddress);
 
-    // response.status(200).json({
-    //   status: "success",
-    //   data: geocode
-    // });
-
-    console.log("getForwardGeocode");
+    response.status(200).json({
+      status: "success",
+      data: geocode
+    });
   } catch (error) {
     console.error(error);
     response.status(400).json({
