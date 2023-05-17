@@ -26,6 +26,7 @@ const corsoptions = {
 };
 
 app.use(cors(corsoptions));
+app.options("*", cors());
 
 // create a rotating write stream
 const accessLogStream = rfs.createStream("server.log", {
