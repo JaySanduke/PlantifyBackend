@@ -20,8 +20,8 @@ const port = 3000;
 // Enable CORS
 const corsoptions = {
   origin: "*",
-  // optionsSuccessStatus: [200, 201, 204],
-  // methods: "GET, POST, PUT, DELETE"
+  optionsSuccessStatus: [200, 201, 204],
+  methods: "GET, POST, PUT, DELETE"
 };
 
 app.use(cors(corsoptions));
