@@ -21,6 +21,7 @@ const port = 3000;
 const corsoptions = {
   origin: "*",
   methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
+  preflightContinue: false,
   optionsSuccessStatus: [200, 201, 204]
 };
 
