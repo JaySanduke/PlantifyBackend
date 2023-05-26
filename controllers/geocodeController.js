@@ -6,11 +6,11 @@ exports.getForwardGeocode = async (request, response) => {
   try {
     const { webaddress } = request.body;
 
-    // const geocode = await forwardGeoCoding(webaddress);
+    const geocode = await forwardGeoCoding(webaddress);
 
     response.status(200).json({
       status: "success",
-      data: webaddress
+      data: geocode
     });
   } catch (error) {
     console.error(error);
